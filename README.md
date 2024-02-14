@@ -1,10 +1,2 @@
 # **Catalogue Filling Mapping of Scientific Papers to Topics for Research Proposals**
 This is the official dataset repository for Catalogue Filling Mapping of Scientific Papers to Topics for Research Proposals
-
-
-## **Abstract**
-
-Existing approaches of automated literature review generation either summarize or generate citation text for individual scientific articles relevant to the target manuscript independently without considering the target manuscripts relationship to other relevant articles. Alternatively, some approaches generate one monolithic  review for all the relevant scientific articles which adversely affects readability. In this work, the end-goal is the generation of a comprehensive literature review for a research proposal that is well organized into a set of topics. We focus on the task of mapping relevant scientific articles to one or more topics in a proposal. We assume the availability of  1) a corpus of relevant scientific articles retrieved using the provided title and abstract of the proposal and 2) a catalog, which is a set of high-level topics relevant to the proposal, to which the scientific articles in the corpus need to be aligned. Unlike existing scientific literature retrieval approaches, we do not assume the availability of a detailed topic description and/or a well-defined citation text or paragraph for the relevant articles. This assumption is unrealistic during the initial research proposal writing stage, where the literature review containing the detailed topic description and/or citation text or paragraph is yet to be generated. We synthesize a dataset for the newly proposed task and establish human and a zero-shot Large Language Model (LLM)-based baselines along with our fine-tuning approaches. A higher accuracy of the human baseline demonstrates that the feasibility of the task, whereas a large gap in the performance of human versus LLM-based and fine-tuning approaches indicates that the task is a challenging one, requiring more sophisticated solutions.
-
-## **tl;dr**
-We propose mapping scientific articles to proposal topics without assuming detailed descriptions. 
